@@ -4,7 +4,8 @@
 prints the titles offirst 10 hot posts listed for a given subreddit
 """
 
-from requests import get
+import requests 
+import get
 
 
 def top_ten(subreddit):
